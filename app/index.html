@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang='en'>
+
 <head>
   <meta charset='UTF-8'>
   <title></title>
@@ -8,7 +9,6 @@
       margin: 0;
       padding: 0;
     }
-
     .container {
       margin: 0;
       height: calc(100vh - 20px);
@@ -16,49 +16,26 @@
       border: 10px solid red;
       display: flex;
       justify-content: center;
-      align-items: center;
+      align-content: center;
+      flex-wrap: wrap;
     }
-
-    .blocks {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 1000px;
-    }
-
-    .block {
-      background-color:cadetblue;
-      height: 200px;
-      margin: 20px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-
-    .block1 {
-      flex-basis: 400px;
-      flex-shrink: 2;
-      order: 3;
-    }
-
-    .block2 {
-      flex-basis: 100px;
-      order: 1;
-    }
-
-    .block3 {
-      flex-basis: 400px;
-      order: 2;
+    img {
+      margin: 10px;
+      width: 150px;
+      height: 90px;
     }
   </style>
 </head>
+
 <body>
   <div class="container">
-    <div class="blocks">
-      <div class="block block1">1</div>
-      <div class="block block2">2</div>
-      <div class="block block3">3</div>
-    </div>
+    <img src="https://source.unsplash.com/random/150x150" alt="">
+    <img src="https://source.unsplash.com/random/150x150" alt="">
+    <img src="https://source.unsplash.com/random/150x150" alt="">
+    <img src="https://source.unsplash.com/random/150x150" alt="">
+    <img src="https://source.unsplash.com/random/150x150" alt="">
+    <img src="https://source.unsplash.com/random/150x150" alt="">
   </div>
 </body>
+
 </html>
